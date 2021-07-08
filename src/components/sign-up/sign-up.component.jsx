@@ -63,8 +63,6 @@ export default class SignUp extends Component {
                     label='Display Name'
                     required
                     />
-
-
                     <FormInput 
                     type='email'
                     name='email'
@@ -73,9 +71,6 @@ export default class SignUp extends Component {
                     label='Email'
                     required
                     />
-
-                    
-
                     <FormInput 
                     type='password'
                     name='password'
@@ -84,9 +79,6 @@ export default class SignUp extends Component {
                     label='Password'
                     required
                     />
-
-                    
-
                     <FormInput 
                     type='password'
                     name='confirmPassword'
@@ -95,7 +87,6 @@ export default class SignUp extends Component {
                     label='Confirm Password'
                     required
                     />
-
                     <CustomButton type='submit'> SIGN UP</CustomButton>
                 </form>
             </div>
