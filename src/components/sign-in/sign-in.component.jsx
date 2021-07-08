@@ -37,14 +37,14 @@ handleChange = event => {
                     type='email' 
                     handleChange={this.handleChange} 
                     value={this.state.email} 
-                    label='email' 
+                    label='Email' 
                     required />
                     <FormInput 
                     name='password' 
                     type='password' 
                     value={this.state.password} 
                     handleChange={this.handleChange} 
-                    label='password' 
+                    label='Password' 
                     required />
                     <div className='buttons'>
                     <CustomButton type="submit">Sign In</CustomButton>
